@@ -21,7 +21,7 @@ app.get('/elements',(req, res)=>{
     res.render('elements')
 })
 
-app.get('*',(req,res)=>{
+app.get('/*',(req,res)=>{
     res.render('404')
 })
 
